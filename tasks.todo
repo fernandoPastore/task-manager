@@ -1,0 +1,24 @@
+Criar um todo list onde o usuário digite as informações e salve, é possível marcar como finalizado e excluir uma tarefa. Quando estiver finalizada, não é possível marcar como pendente novamente.
+
+Atividade 1:
+    ☐ Quando  o usuário digite uma nova tarefa e clique em add, devemos pegar o valor que o usuário digitou e exibir um alerta com o valor digitado.
+
+Atividade 2:
+    ☐ Pegar o valor digitado no input e inserir dentro da lista de itens
+    Ajuda: O item é uma li que está dentro da ul task-item, precisa ter a imagem de excluir, um p com o conteúdo que o usuário digitou e a imagem com o botão de done. Deve pegar o conteúdo e gerar um novo conteúdo html.
+
+    Podemos utilizar o innerHtml, insertAdjacentHTML, createElement, porém ao tomar a decisão, lembre-se que iremos adicionar eventos aos botões de done e cancelar.
+
+    Passo a passo:
+        ☐ 1. Criar uma função para gerar a task
+        ☐ 2. Criar a estrutura da lista (usar innerHTML, createElement)
+        ☐ 3. Inserir as classes e valores nos elementos
+
+Atividade 3:
+    ☐ Fazer que após adicionar uma nova task, o input do form fique limpo e não com o valor anterior preenchido.
+
+Atividade 4:
+    ☐ Fazer com que após clicar no botão done, seja adicionar a classe task-done na lista
+
+Atividade 5: 
+    ☐ Quando clicar no botão de remover, deve excluir o item finalizado.
